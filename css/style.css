@@ -93,8 +93,6 @@ li > a {
 
 .col {
     float: left;
-    height: 200px;
-    background-color: red;
 }
 
 .left-col {
@@ -137,12 +135,13 @@ li > a {
     width: 20%;
 }
 
+.sub-title {
+    margin-top: 1em;
+}
 
 footer {
-    height: 60px;
     text-align: center;
     font-size: 2em;
-    margin-top: 10px;
 }
 
 .heart {
