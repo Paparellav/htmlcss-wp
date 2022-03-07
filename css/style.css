@@ -51,8 +51,7 @@ li > a {
     color: #a6a6a6;
 }
 
-/* first-banner */
-
+/* first-section */
 .jumbotron {
     position: relative;
     height: 450px;
@@ -79,32 +78,65 @@ li > a {
     font-size: 1.5em;
 }
 
-.layout {
-    /* border: 1px solid blue; */
-    background-color: #0085fd;
+/* second-section */
+.second-title h1  {
+    font-size: 3em;
 }
 
-.superior-div {
-    height: 80px;
-    background-color: #abcfe7;
+.second-title div {
+    font-weight: 500;
+}
+
+.third-section img {
+    height: 300px;    
 }
 
 .col {
     float: left;
+    height: 200px;
+    background-color: red;
 }
 
-.l-r-float {
-    width: 25%;
-    height: 720px;
-    background-color: #abcfe7;
+.left-col {
+    width: 20%;
 }
 
-.center-float {
-    width: calc(50% - 30px);
-    height: 720px;
-    background-color: #abcfe7;
-    margin: 15px 15px;
+
+.img-left {
+    background-image: url("../img/img-1.jpg");
+    background-position: center;
+    background-size: cover;
+
 }
+
+.img-center {
+    background-image: url("../img/banner-2.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.img-right {
+    background-image: url("../img/img-3.jpg");
+    background-position: center;
+    background-size: cover;
+}
+
+.layover {
+    background-color: rgba(0, 0, 0, 0.2);
+    height: 200px;
+    border-radius: 2em;
+    overflow: hidden;
+}
+
+.center-col {
+    width: calc(60% - 20px);
+    margin: 3em 10px;
+}
+
+.right-col {
+    width: 20%;
+}
+
 
 footer {
     height: 60px;
